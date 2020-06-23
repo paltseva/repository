@@ -13,6 +13,11 @@ theme: /
     state:
         intent!: /пока
         a: Пока пока
+        
+    state:
+        q!: $тест
+        a: тест пройден
+        
     state:
         event!: match
         a: {{$context.intent.answer}}
