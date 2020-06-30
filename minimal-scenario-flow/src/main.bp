@@ -1,0 +1,438 @@
+{
+  "positions" : [ {
+    "id" : "/newNode_0",
+    "name" : "col#0",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_1",
+    "name" : "col#0",
+    "boundsTo" : "/newNode_0",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_2",
+    "name" : "col#1",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_3",
+    "name" : "col#1",
+    "boundsTo" : "/newNode_2",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_4",
+    "name" : "col#1",
+    "boundsTo" : "",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_5",
+    "name" : "col#1",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_6",
+    "name" : "col#1",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_9",
+    "name" : "col#2",
+    "boundsTo" : "",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_8",
+    "name" : "col#3",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_10",
+    "name" : "col#4",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_11",
+    "name" : "col#4",
+    "boundsTo" : "/newNode_10",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_12",
+    "name" : "col#4",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_17",
+    "name" : "col#4",
+    "boundsTo" : "/newNode_12",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_13",
+    "name" : "col#4",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_18",
+    "name" : "col#4",
+    "boundsTo" : "/newNode_13",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_14",
+    "name" : "col#4",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_19",
+    "name" : "col#4",
+    "boundsTo" : "/newNode_14",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_15",
+    "name" : "col#4",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_16",
+    "name" : "col#4",
+    "boundsTo" : "/newNode_15",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_20",
+    "name" : "col#5",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_21",
+    "name" : "col#5",
+    "boundsTo" : "/newNode_20",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_42",
+    "name" : "col#5",
+    "actionTitles" : [ null, "Аудио", null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_44",
+    "name" : "col#5",
+    "actionTitles" : [ null, "Аудио", null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_22",
+    "name" : "col#6",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_26",
+    "name" : "col#6",
+    "boundsTo" : "/newNode_22",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_24",
+    "name" : "col#6",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_25",
+    "name" : "col#6",
+    "boundsTo" : "/newNode_24",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_23",
+    "name" : "col#6",
+    "boundsTo" : "",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_27",
+    "name" : "col#7",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_71",
+    "name" : "col#7",
+    "boundsTo" : "/newNode_27",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_66",
+    "name" : "col#7",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_72",
+    "name" : "col#7",
+    "boundsTo" : "/newNode_66",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_28",
+    "name" : "col#8",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_31",
+    "name" : "col#8",
+    "boundsTo" : "/newNode_28",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_29",
+    "name" : "col#8",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_32",
+    "name" : "col#8",
+    "boundsTo" : "/newNode_29",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_30",
+    "name" : "col#8",
+    "actionTitles" : [ "Аудио", null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_33",
+    "name" : "col#8",
+    "boundsTo" : "/newNode_30",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_34",
+    "name" : "col#8",
+    "actionTitles" : [ "Аудио", null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_36",
+    "name" : "col#8",
+    "boundsTo" : "/newNode_34",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_35",
+    "name" : "col#8",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_37",
+    "name" : "col#8",
+    "boundsTo" : "/newNode_35",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_47",
+    "name" : "col#8",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_46",
+    "name" : "col#8",
+    "boundsTo" : "/newNode_47",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_60",
+    "name" : "col#8",
+    "boundsTo" : "",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_67",
+    "name" : "col#8",
+    "boundsTo" : "",
+    "title" : "Http-запрос get config",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_38",
+    "name" : "col#9",
+    "actionTitles" : [ "столица или нет?" ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_56",
+    "name" : "col#9",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_57",
+    "name" : "col#9",
+    "boundsTo" : "/newNode_56",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_61",
+    "name" : "col#9",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_62",
+    "name" : "col#9",
+    "boundsTo" : "/newNode_61",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_64",
+    "name" : "col#9",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_65",
+    "name" : "col#9",
+    "boundsTo" : "/newNode_64",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_68",
+    "name" : "col#9",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_69",
+    "name" : "col#9",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_70",
+    "name" : "col#9",
+    "boundsTo" : "/newNode_69",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_48",
+    "name" : "col#10",
+    "actionTitles" : [ null, null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_50",
+    "name" : "col#10",
+    "boundsTo" : "/newNode_48",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_49",
+    "name" : "col#10",
+    "actionTitles" : [ null, null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_51",
+    "name" : "col#10",
+    "boundsTo" : "/newNode_49",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_63",
+    "name" : "col#10",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_52",
+    "name" : "col#11",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_53",
+    "name" : "col#11",
+    "boundsTo" : "/newNode_52",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_54",
+    "name" : "col#11",
+    "actionTitles" : [ "непонятно", null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_55",
+    "name" : "col#11",
+    "boundsTo" : "/newNode_54",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_58",
+    "name" : "col#12",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_59",
+    "name" : "col#12",
+    "boundsTo" : "/newNode_58",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  } ]
+}

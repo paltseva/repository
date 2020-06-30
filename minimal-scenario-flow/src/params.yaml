@@ -1,0 +1,207 @@
+{
+    "catchAll": {
+        "phrases": [
+            "Извините, непонятно"
+        ]
+    },
+    "fulfillment": {
+        "settings": {
+            "default": {
+                "url": ""
+            },
+            "channels": []
+        },
+        "actions": [
+            {
+                "state": "/newNode_42",
+                "action": "выбор котика",
+                "color": "#71a9f7"
+            },
+            {
+                "state": "/newNode_47",
+                "action": "завершение сценария",
+                "color": "#96bdc6"
+            },
+            {
+                "state": "/newNode_38",
+                "action": "столица?",
+                "color": "#1ccad8"
+            },
+            {
+                "state": "/newNode_35",
+                "action": "системные сущности",
+                "color": "#edc9ff"
+            },
+            {
+                "state": "/newNode_48",
+                "action": "столица",
+                "color": "#fbc2b5"
+            },
+            {
+                "state": "/newNode_49",
+                "action": "не столица",
+                "color": "#ffbf69"
+            },
+            {
+                "state": "/newNode_54",
+                "action": "непонятно",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_56",
+                "action": "непонятно",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_52",
+                "action": "имя",
+                "color": "#1ccad8"
+            },
+            {
+                "state": "/newNode_58",
+                "action": "имя",
+                "color": "#8fbfe0"
+            },
+            {
+                "state": "/newNode_61",
+                "action": "телефон",
+                "color": "#8fbfe0"
+            },
+            {
+                "state": "/newNode_27",
+                "action": "МЕНЮ",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_28",
+                "action": "локальное изображение",
+                "color": "#9bc995"
+            },
+            {
+                "state": "/newNode_29",
+                "action": "изображение по ссылке",
+                "color": "#15e6cd"
+            },
+            {
+                "state": "/newNode_30",
+                "action": "локальное аудио",
+                "color": "#9bc995"
+            },
+            {
+                "state": "/newNode_34",
+                "action": "аудио по ссылке",
+                "color": "#15e6cd"
+            },
+            {
+                "state": "/newNode_60",
+                "action": "phone",
+                "color": "#1ccad8"
+            },
+            {
+                "state": "/newNode_22",
+                "action": "котики-конец",
+                "color": "#1ccad8"
+            },
+            {
+                "state": "/newNode_24",
+                "action": "собачки-конец",
+                "color": "#9bc995"
+            },
+            {
+                "state": "/newNode_20",
+                "action": "кошки или собаки?",
+                "color": "#15e6cd"
+            },
+            {
+                "state": "/newNode_44",
+                "action": "выбор собаки",
+                "color": "#f79256"
+            },
+            {
+                "state": "/newNode_12",
+                "action": "возраст > 18 и меньше 90",
+                "color": "#fed766"
+            },
+            {
+                "state": "/newNode_10",
+                "action": "возраст < 18",
+                "color": "#96bdc6"
+            },
+            {
+                "state": "/newNode_13",
+                "action": "возраст > 90 и меньше 110",
+                "color": "#c9c9ee"
+            },
+            {
+                "state": "/newNode_14",
+                "action": "возраст > 110 и меньше 20",
+                "color": "#9593d9"
+            },
+            {
+                "state": "/newNode_15",
+                "action": "ошибка ввода возраста",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_8",
+                "action": "выбор условия по возрасту",
+                "color": "#fed766"
+            },
+            {
+                "state": "/newNode_9",
+                "action": "сколько лет?",
+                "color": "#8fbfe0"
+            },
+            {
+                "state": "/newNode_4",
+                "action": "как зовут?",
+                "color": "#edc9ff"
+            },
+            {
+                "state": "/newNode_5",
+                "action": "не хочет продолжать",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_6",
+                "action": "не уверен",
+                "color": "#f79256"
+            },
+            {
+                "state": "/newNode_2",
+                "action": "непонятно",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_63",
+                "action": "не записалось capital",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_64",
+                "action": "CITY",
+                "color": "#f79256"
+            },
+            {
+                "state": "/newNode_66",
+                "action": "МЕНЮ 2",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_67",
+                "action": "get config (HTTP)",
+                "color": "#1ccad8"
+            },
+            {
+                "state": "/newNode_69",
+                "action": "ошибка http запроса",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_68",
+                "action": "http запрос успешен",
+                "color": "#15e6cd"
+            }
+        ]
+    }
+}
