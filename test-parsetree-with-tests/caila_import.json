@@ -1,0 +1,487 @@
+{
+  "project" : {
+    "id" : "parsetree-396-SVm",
+    "name" : "parsetree-396-SVm",
+    "folder" : "/"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "UTC",
+    "shared" : false
+  },
+  "intents" : [
+    {
+      "id" : 4526,
+      "path" : "/люблю деревья",
+      "enabled" : true,
+      "shared" : false,
+      "phrases" : [
+        {
+          "text" : "люблю @tree"
+        },
+        {
+          "text" : "люблю смотреть на @tree"
+        },
+        {
+          "text" : "люблю гулять среди @tree"
+        },
+        {
+          "text" : "люблю, когда рядом @tree"
+        },
+        {
+          "text" : "люблю @kind_of_tree"
+        },
+        {
+          "text" : "@люблю @kind_of_tree"
+        }
+      ],
+      "patterns" : [ ],
+      "slots" : [
+        {
+          "name" : "какие деревья? ",
+          "entity" : "kind_of_tree",
+          "required" : true,
+          "prompts" : [
+            "А какие деревья ты любишь?"
+          ]
+        }
+      ]
+    },
+    {
+      "id" : 4518,
+      "path" : "/привет",
+      "enabled" : true,
+      "shared" : false,
+      "phrases" : [
+        {
+          "text" : "привет"
+        },
+        {
+          "text" : "hi"
+        },
+        {
+          "text" : "здравствуйте"
+        },
+        {
+          "text" : "здарова"
+        },
+        {
+          "text" : "алоха"
+        },
+        {
+          "text" : "хай"
+        },
+        {
+          "text" : "приветище"
+        },
+        {
+          "text" : "привет-привет"
+        },
+        {
+          "text" : "здравствуй"
+        }
+      ],
+      "patterns" : [ ]
+    },
+    {
+      "id" : 4517,
+      "path" : "/пока",
+      "enabled" : true,
+      "shared" : false,
+      "phrases" : [
+        {
+          "text" : "пока"
+        }
+      ],
+      "patterns" : [ ]
+    },
+    {
+      "id" : 4519,
+      "path" : "/Люблю животных",
+      "enabled" : true,
+      "shared" : false,
+      "phrases" : [
+        {
+          "text" : "я люблю животных @cat @dog @fish"
+        },
+        {
+          "text" : "люблю животных"
+        },
+        {
+          "text" : "люблю зверей"
+        },
+        {
+          "text" : "люблю животных, особенно @cat"
+        },
+        {
+          "text" : "люблю животных, особенно @dog"
+        },
+        {
+          "text" : "люблю всех зверушек"
+        }
+      ],
+      "patterns" : [ ],
+      "slots" : [
+        {
+          "name" : "dog",
+          "entity" : "dog",
+          "required" : true,
+          "prompts" : [
+            "а собаку?"
+          ],
+          "array" : false
+        }
+      ]
+    },
+    {
+      "id" : 4524,
+      "path" : "/доставка",
+      "answer" : "Хорошо, оформляю доставку",
+      "enabled" : true,
+      "shared" : false,
+      "phrases" : [
+        {
+          "text" : "хочу доставку"
+        },
+        {
+          "text" : "оформить доставку"
+        },
+        {
+          "text" : "доставочка нужна"
+        },
+        {
+          "text" : "нужна доставка"
+        },
+        {
+          "text" : "хочу оформить доставку на @item"
+        },
+        {
+          "text" : "доставьте @item"
+        },
+        {
+          "text" : "вы доставляете @item в @city?"
+        }
+      ],
+      "patterns" : [ ],
+      "slots" : [
+        {
+          "name" : "город доставки",
+          "entity" : "city",
+          "required" : true,
+          "prompts" : [
+            "в какой город доставить товар? "
+          ]
+        },
+        {
+          "name" : "наименование товара",
+          "entity" : "item",
+          "required" : true,
+          "prompts" : [
+            "что именно хотите купить?"
+          ]
+        },
+        {
+          "name" : "дата доставки",
+          "entity" : "duckling.date",
+          "required" : true,
+          "prompts" : [
+            "на какое число оформить доставку? "
+          ]
+        }
+      ]
+    },
+    {
+      "id" : 4525,
+      "path" : "/рыбалка",
+      "enabled" : true,
+      "shared" : false,
+      "phrases" : [
+        {
+          "text" : "люблю рыбалку "
+        },
+        {
+          "text" : "рыбачу"
+        },
+        {
+          "text" : "рыбачить"
+        },
+        {
+          "text" : "ловить @fish"
+        },
+        {
+          "text" : "ловить @fish с @dog"
+        },
+        {
+          "text" : "ловить @fish для @cat"
+        },
+        {
+          "text" : "@fish для @cat"
+        },
+        {
+          "text" : "ловить @fish с @dog для @cat"
+        }
+      ],
+      "patterns" : [ ]
+    }
+  ],
+  "entities" : [
+    {
+      "entity" : {
+        "id" : 4005,
+        "name" : "cat",
+        "enabled" : true,
+        "shared" : false,
+        "type" : "annotation",
+        "priority" : 1,
+        "noSpelling" : false,
+        "noMorph" : false
+      },
+      "records" : [
+        {
+          "id" : 72505,
+          "type" : "synonyms",
+          "rule" : [
+            "кот",
+            "cat",
+            "котик",
+            "кошечка",
+            "котэ",
+            "котейка",
+            "кошек",
+            "котиков",
+            "кошаков",
+            "котеек",
+            "котики",
+            "кошечки",
+            "котичка",
+            "котика",
+            "кошки"
+          ],
+          "value" : ""
+        }
+      ]
+    },
+    {
+      "entity" : {
+        "id" : 4011,
+        "name" : "city",
+        "enabled" : true,
+        "shared" : false,
+        "type" : "annotation",
+        "priority" : 1,
+        "noSpelling" : false,
+        "noMorph" : false
+      },
+      "records" : [
+        {
+          "id" : 72511,
+          "type" : "synonyms",
+          "rule" : [
+            "питер",
+            "санкт-петербург",
+            "спб"
+          ],
+          "value" : ""
+        },
+        {
+          "id" : 72512,
+          "type" : "synonyms",
+          "rule" : [
+            "москва"
+          ],
+          "value" : ""
+        },
+        {
+          "id" : 72513,
+          "type" : "synonyms",
+          "rule" : [
+            "нижний новгород"
+          ],
+          "value" : ""
+        },
+        {
+          "id" : 72514,
+          "type" : "synonyms",
+          "rule" : [
+            "великий новгород"
+          ],
+          "value" : ""
+        }
+      ]
+    },
+    {
+      "entity" : {
+        "id" : 4006,
+        "name" : "dog",
+        "enabled" : true,
+        "shared" : false,
+        "type" : "annotation",
+        "priority" : 1,
+        "noSpelling" : false,
+        "noMorph" : false
+      },
+      "records" : [
+        {
+          "id" : 72506,
+          "type" : "synonyms",
+          "rule" : [
+            "собака",
+            "собачка",
+            "песик",
+            "пёсик",
+            "песель",
+            "собаку",
+            "собачку",
+            "собак",
+            "собачек",
+            "песиков",
+            "поселей",
+            "собаки"
+          ],
+          "value" : ""
+        }
+      ]
+    },
+    {
+      "entity" : {
+        "id" : 4007,
+        "name" : "fish",
+        "enabled" : true,
+        "shared" : false,
+        "type" : "annotation",
+        "priority" : 1,
+        "noSpelling" : false,
+        "noMorph" : false
+      },
+      "records" : [
+        {
+          "id" : 72507,
+          "type" : "synonyms",
+          "rule" : [
+            "рыбка",
+            "рыба",
+            "fish",
+            "рыбку",
+            "рыбок",
+            "рыбина",
+            "рыбину",
+            "рыб"
+          ],
+          "value" : ""
+        }
+      ]
+    },
+    {
+      "entity" : {
+        "id" : 4012,
+        "name" : "item",
+        "enabled" : true,
+        "shared" : false,
+        "type" : "annotation",
+        "priority" : 1,
+        "noSpelling" : false,
+        "noMorph" : false
+      },
+      "records" : [
+        {
+          "id" : 72515,
+          "type" : "synonyms",
+          "rule" : [
+            "айфон",
+            "iphone",
+            "телефон",
+            "samsung",
+            "унитаз",
+            "ручка",
+            "мяч",
+            "тарелка",
+            "ложка",
+            "айфона",
+            "айфоны"
+          ],
+          "value" : ""
+        }
+      ]
+    },
+    {
+      "entity" : {
+        "id" : 4016,
+        "name" : "kind_of_tree",
+        "enabled" : true,
+        "shared" : false,
+        "type" : "annotation",
+        "priority" : 1,
+        "noSpelling" : false,
+        "noMorph" : false
+      },
+      "records" : [
+        {
+          "id" : 72519,
+          "type" : "synonyms",
+          "rule" : [ ],
+          "value" : ""
+        },
+        {
+          "id" : 72520,
+          "type" : "synonyms",
+          "rule" : [
+            "береза",
+            "березка",
+            "березку",
+            "березу",
+            "берез",
+            "березы"
+          ],
+          "value" : ""
+        },
+        {
+          "id" : 72521,
+          "type" : "synonyms",
+          "rule" : [
+            "дуб",
+            "дубы",
+            "дубов"
+          ],
+          "value" : ""
+        }
+      ]
+    },
+    {
+      "entity" : {
+        "id" : 4013,
+        "name" : "tree",
+        "enabled" : true,
+        "shared" : false,
+        "type" : "annotation",
+        "priority" : 1,
+        "noSpelling" : false,
+        "noMorph" : false
+      },
+      "records" : [
+        {
+          "id" : 72516,
+          "type" : "synonyms",
+          "rule" : [
+            "дерево",
+            "деревья",
+            "деревцо",
+            "древо"
+          ],
+          "value" : ""
+        }
+      ]
+    }
+  ],
+  "enabledSystemEntities" : [
+    "duckling.number",
+    "duckling.time",
+    "duckling.duration",
+    "duckling.phone-number",
+    "duckling.email",
+    "duckling.url",
+    "mystem.geo",
+    "duckling.date"
+  ]
+}

@@ -1,0 +1,69 @@
+<test>
+    <test-case id="1">
+        <q>/start</q>
+        <a>Начнём.</a>
+    </test-case>
+    
+    <test-case id="2">
+        <q>люблю животных кота, собаку и рыбок</q>
+        <a state="/Animals"/>
+        <a state="/Animals"/>
+    </test-case>
+    
+    <test-case id="2">
+        <q>пока</q>
+        <a state="/Bye"/>
+    </test-case>
+    
+    <test-case id="3">
+        <q>здравствуй</q>
+        <a state="/no_slots"/>
+        <a>Привет привет</a>
+    </test-case>
+    
+    <test-case id="4">
+        <q>люблю животных, особенно кошек</q>
+        <a>а собаку?</a>
+        <q>и собаку</q>
+        <a state="/Animals"/>
+        <a state="/Animals"/>
+    </test-case>
+    
+    <test-case id="5">
+        <q>хочу доставку</q>
+        <a>в какой город доставить товар?</a>
+        <q>в питер</q>
+        <a>что именно хотите купить?</a>
+        <q>ручка</q>
+        <a>на какое число оформить доставку?</a>
+        <q>на послезавтра</q>
+        <a state="/slots"/>
+        <a>доставка оформлена</a>
+    </test-case>
+    
+    <test-case id="6">
+        <q>люблю деревья</q>
+        <a>А какие деревья ты любишь?</a>
+        <q>дубы и березы</q>
+        <a state="/entities_and_slots"/>
+        <a>природа - самое ценное в этом мире!</a>
+    </test-case>
+    
+    <test-case id="7">
+        <q>увлекаюсь рыбалкой</q>
+        <a state="/entities"/>
+        <a>прекрасное хобби!</a>
+    </test-case>
+    
+    <test-case id="8">
+        <q>люблю ловить рыбку</q>
+        <a state="/entities"/>
+        <a>прекрасное хобби!</a>
+    </test-case>
+    
+    <test-case id="9">
+        <q>этот мир придуман не нами лалала</q>
+        <a state="/NoMatch"/>
+    </test-case>
+    
+</test>    
