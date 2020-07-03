@@ -21,6 +21,9 @@ theme: /
     state: newNode_1
         state: 1
             q: $AGREEMENT
+            e: привет
+            e: хай
+            e: здравствуй
 
             go!: /newNode_4
 
@@ -537,7 +540,7 @@ theme: /
           "boundsTo" : "",
           "title" : "Http-запрос get config",
           "actions" : [ ],
-          "url" : "https://smartapp-flow.apps.dev-gen.sigma.sbrf.ru/restapi/public/config",
+          "url" : "http://localhost:9010/version",
           "method" : "GET",
           "body" : "",
           "okState" : "/newNode_68",
@@ -548,7 +551,7 @@ theme: /
             "value" : "FLOW"
           } ],
           "vars" : [ {
-            "name" : "response",
+            "name" : "version",
             "value" : "$httpResponse"
           } ]
         }
@@ -557,7 +560,7 @@ theme: /
             var headers = {
                 "Product": _.template("FLOW", {variable: '$session'})($session)
             };
-            var result = $http.query("https://smartapp-flow.apps.dev-gen.sigma.sbrf.ru/restapi/public/config", {
+            var result = $http.query("http://localhost:9010/version", {
                 method: "GET",
                 headers: headers,
                 query: $session,
@@ -567,7 +570,7 @@ theme: /
             $session.httpStatus = result.status;
             $session.httpResponse = $httpResponse;
             if (result.isOk && result.status >= 200 && result.status < 300) {
-                addClientVarToSession("response", $httpResponse);
+                addClientVarToSession("version", $httpResponse);
                 $reactions.transition("/newNode_68");
             } else {
                 $reactions.transition("/newNode_69");
@@ -597,7 +600,9 @@ theme: /
         go!: /newNode_38
 
     state: newNode_68
-        a: {{$session.response}}
+        image: https://ss.sport-express.ru/userfiles/materials/125/1254757/large.jpg
+        a: запрос выполнен успешно! вот ответ
+        a: {{$session.version}}
         script:
             $reactions.timeout({interval: _.template('5 seconds', {variable: '$session'})($session), targetState: '/newNode_66'});
 

@@ -347,7 +347,7 @@
   }, {
     "id" : "/newNode_68",
     "name" : "col#9",
-    "actionTitles" : [ null, null ],
+    "actionTitles" : [ null, null, null, null ],
     "x" : 0,
     "y" : 0
   }, {
