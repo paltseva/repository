@@ -1,0 +1,12 @@
+name: echo-template
+
+entryPoint:
+  - main.sc
+  
+injector:
+    api_key: '2b25206eb489b5e4d494203e99903e47'
+
+tests:
+  include:
+    - test.xml
+

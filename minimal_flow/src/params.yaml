@@ -1,0 +1,172 @@
+{
+    "catchAll": {
+        "phrases": [
+            "Извините, непонятно"
+        ]
+    },
+    "fulfillment": {
+        "settings": {
+            "default": {
+                "url": ""
+            },
+            "channels": []
+        },
+        "actions": [
+            {
+                "state": "/newNode_0",
+                "action": "start",
+                "color": "#1ccad8"
+            },
+            {
+                "state": "/newNode_1",
+                "action": "menu",
+                "color": "#8fbfe0"
+            },
+            {
+                "state": "/newNode_2",
+                "action": "изображение локально",
+                "color": "#fed766"
+            },
+            {
+                "state": "/newNode_3",
+                "action": "изображение по ссылке",
+                "color": "#9bc995"
+            },
+            {
+                "state": "/newNode_4",
+                "action": "текст",
+                "color": "#edc9ff"
+            },
+            {
+                "state": "/newNode_6",
+                "action": "непонятно",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_7",
+                "action": "ввод числа",
+                "color": "#fbc2b5"
+            },
+            {
+                "state": "/newNode_8",
+                "action": "после ввода числа",
+                "color": "#c9c9ee"
+            },
+            {
+                "state": "/newNode_9",
+                "action": "ввод текста",
+                "color": "#9bc995"
+            },
+            {
+                "state": "/newNode_10",
+                "action": "после ввода текста",
+                "color": "#9bc995"
+            },
+            {
+                "state": "/newNode_11",
+                "action": "номер телефона",
+                "color": "#edc9ff"
+            },
+            {
+                "state": "/newNode_12",
+                "action": "после ввода номера телефона",
+                "color": "#edc9ff"
+            },
+            {
+                "state": "/newNode_13",
+                "action": "http",
+                "color": "#fed766"
+            },
+            {
+                "state": "/newNode_14",
+                "action": "успешный http запрос",
+                "color": "#9bc995"
+            },
+            {
+                "state": "/newNode_15",
+                "action": "ошибка в http запросе",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_16",
+                "action": "меню 2",
+                "color": "#1ccad8"
+            },
+            {
+                "state": "/newNode_19",
+                "action": "готовые интенты",
+                "color": "#9bc995"
+            },
+            {
+                "state": "/newNode_21",
+                "action": "неизвестная страна",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_22",
+                "action": "страна найдена",
+                "color": "#9bc995"
+            },
+            {
+                "state": "/newNode_26",
+                "action": "интенты не найдены",
+                "color": "#ef767a"
+            },
+            {
+                "state": "/newNode_25",
+                "action": "собака",
+                "color": "#15e6cd"
+            },
+            {
+                "state": "/newNode_24",
+                "action": "котик",
+                "color": "#fbc2b5"
+            },
+            {
+                "state": "/newNode_30",
+                "action": "интенты",
+                "color": "#1ccad8"
+            },
+            {
+                "state": "/newNode_33",
+                "action": "Аудио",
+                "color": "#fbc2b5"
+            },
+            {
+                "state": "/newNode_32",
+                "action": "faq",
+                "color": "#1ccad8"
+            },
+            {
+                "state": "/newNode_34",
+                "action": "переход по таймауту",
+                "color": "#8fbfe0"
+            },
+            {
+                "state": "/newNode_35",
+                "action": "после таймаута",
+                "color": "#dbb68f"
+            },
+            {
+                "state": "/newNode_37",
+                "action": "условия",
+                "color": "#9bc995"
+            },
+            {
+                "state": "/newNode_36",
+                "action": "условия",
+                "color": "#edc9ff"
+            },
+            {
+                "state": "/newNode_40",
+                "action": "меню 3",
+                "color": "#8fbfe0"
+            },
+            {
+                "state": "/newNode_41",
+                "action": "завершение сценария",
+                "color": "#9593d9"
+            }
+        ]
+    }
+}
