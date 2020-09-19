@@ -55,17 +55,17 @@ theme: /
             "текст" -> /newNode_4
             "ввод числа" -> /newNode_7
             "ввод текста" -> /newNode_9
+            "аудио локально" -> /newNode_33
             "номер телефона" -> /newNode_11
-            "http" -> /newNode_13
             "дальше" -> /newNode_16
 
     state: newNode_16
         a: Выбери пункт меню
         buttons:
+            "http" -> /newNode_13
             "интенты" -> /newNode_30
             "готовые интенты" -> /newNode_19
             "faq" -> /newNode_32
-            "аудио локально" -> /newNode_33
             "переход по таймауту" -> /newNode_34
             "условия" -> /newNode_37
             "дальше" -> /newNode_40
@@ -75,7 +75,7 @@ theme: /
         a: Выбери пункт меню
         buttons:
             "завершение сценария" -> /newNode_41
-            "в начало" -> /newNode_1
+            "дальше" -> /newNode_1
             "назад" -> /newNode_16
 
     state: newNode_2
@@ -221,7 +221,7 @@ theme: /
             audio: https://smartapp-s3.sberdevices.ru/temporary-botadmin/707/708/audio/AL7IsqgJ2BIEpYb9.mp3?channels={"incompatible":["OUTGOING_CALLS","GOOGLE_ASSISTANCE","ALEXA"],"compatible":["MESSENGERS","ALISA","AIMYBOX"]} || name = "file_example_MP3_700KB.mp3"
 
     state: newNode_34
-        a: Через 3 секунды произойдет переход
+        a: Через 3 секунды произойдет переход. После перехода можно спросить "Где я", чтобы проверить, в каком мы стейте
         script:
             $reactions.timeout({interval: _.template('3 seconds', {variable: '$session'})($session), targetState: '/newNode_35'});
 
@@ -237,10 +237,8 @@ theme: /
 
     state: newNode_41
         a: завершаю сценарий
-        go!: /newNode_42
-
-    state: newNode_42
-        EndSession:
+        # Transition /newNode_47
+        go!: /newNode_49
 
     state: newNode_8
         a: ваше число: {{$session.number}}
@@ -258,7 +256,7 @@ theme: /
             "назад" -> /newNode_1
 
     state: newNode_15
-        a: Запрос завершен с ошибкой.. {{$session.httpStatus}}
+        a: Запрос завершен с ошибкой..
 
     state: newNode_21
         a: я такой страны не знаю
@@ -266,7 +264,7 @@ theme: /
         go!: /newNode_19
 
     state: newNode_22
-        a: Ты назвал страну {{$session.Сountry}}
+        a: Ты назвал страну {{$session.COUNTRY}}
 
     state: newNode_24
         a: Вы назвали интент {{$session.cat}}
@@ -285,6 +283,29 @@ theme: /
 
     state: newNode_35
         a: Переход после таймаута в 3 секунды
+        go!: /newNode_45
+    @IntentGroup
+        {
+          "boundsTo" : "/newNode_35",
+          "actions" : [ {
+            "buttons" : [ ],
+            "type" : "buttons"
+          } ],
+          "global" : false
+        }
+    state: newNode_45
+        state: 1
+            e: где я?
+
+            go!: /newNode_46
+        init:
+            $jsapi.bind({
+                type: "postProcess",
+                path: "/newNode_45",
+                name: "newNode_45 buttons",
+                handler: function($context) {
+                }
+            });
 
     state: newNode_36
         if: $session.numberChoice < 50
@@ -292,8 +313,44 @@ theme: /
         else:
             go!: /newNode_39
 
+    state: newNode_49
+        a: сценарий завершился
+        go!: /newNode_48
+
+    state: newNode_48
+        EndSession:
+
     state: newNode_38
         a: число меньше 50
 
     state: newNode_39
         a: число больше 50
+
+    state: newNode_44
+        a: еуе
+        go!: /newNode_43
+    @IntentGroup
+        {
+          "boundsTo" : "/newNode_44",
+          "actions" : [ {
+            "buttons" : [ ],
+            "type" : "buttons"
+          } ],
+          "global" : false
+        }
+    state: newNode_43
+        state: 1
+            q: $NEGATION
+
+            go!: /
+        init:
+            $jsapi.bind({
+                type: "postProcess",
+                path: "/newNode_43",
+                name: "newNode_43 buttons",
+                handler: function($context) {
+                }
+            });
+
+    state: newNode_46
+        a: Вы были на экране после перехода с таймаутом
