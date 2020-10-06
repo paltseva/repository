@@ -9,6 +9,8 @@ theme: /
     state:
         intent!: /привет
         a: Привет привет
+        
+# comment from prom
 
     state:
         intent!: /пока
