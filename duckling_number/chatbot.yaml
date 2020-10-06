@@ -6,6 +6,10 @@ entryPoint:
 botEngine: v2
 language: ru
 
+tests:
+    exclude:
+    - test.xml
+
 sts:
     noMatchThreshold: 0.2
 
