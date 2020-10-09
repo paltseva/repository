@@ -11,6 +11,7 @@ theme: /
         a: Привет привет
         
 # comment from prom
+# second comment from prom
 
     state:
         intent!: /пока
