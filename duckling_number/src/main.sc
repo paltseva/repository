@@ -5,6 +5,7 @@ theme: /
     state: 
         q!: $regex</start>
         a: Начнём.
+# comment2
 
     state:
         intent!: /привет
