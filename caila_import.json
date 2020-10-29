@@ -29,8 +29,56 @@
     "path" : "/число",
     "enabled" : true,
     "shared" : false,
-    "phrases" : [ ],
-    "patterns" : [ ]
+    "phrases" : [ {
+      "text" : "число"
+    } ],
+    "patterns" : [ "наз* числ*", "*тест* числ*" ],
+    "slots" : [ {
+      "name" : "с",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "назови с предлогом \"с\"" ]
+    }, {
+      "name" : "на",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "назови с предлогом \"на\"" ]
+    }, {
+      "name" : "до",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "назови с предлогом \"до\"" ]
+    }, {
+      "name" : "в",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "назови с предлогом \"в\"" ]
+    }, {
+      "name" : "по",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "назови с предлогом \"по\"" ]
+    }, {
+      "name" : "около",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "назови с предлогом \"около\"" ]
+    }, {
+      "name" : "за",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "назови с предлогом \"за\"" ]
+    }, {
+      "name" : "от",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "назови с предлогом \"от\"" ]
+    }, {
+      "name" : "к",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "назови с предлогом \"к\"" ]
+    } ]
   } ],
   "entities" : [ {
     "entity" : {
