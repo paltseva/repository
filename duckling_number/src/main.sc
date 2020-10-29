@@ -14,6 +14,10 @@ theme: /
         intent!: /пока
         a: Пока пока
         
+    state:
+        intent!: /пока
+        a: Пока пока
+        
     state: number
         intent!: /число
         a: {{toPrettyString($entities)}}

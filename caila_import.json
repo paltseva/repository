@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "repozitory_victorina-707-Tcl",
-    "name" : "repozitory_victorina-707-Tcl",
+    "id" : "repozitory_test_29_1-707-Mvv",
+    "name" : "repozitory_test_29_1-707-Mvv",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -11,7 +11,71 @@
     "timezone" : "UTC",
     "shared" : false
   },
-  "intents" : [ ],
-  "entities" : [ ],
+  "intents" : [ {
+    "id" : 40552,
+    "path" : "/купить животное",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "patterns" : [ "*купить @animal *" ],
+    "slots" : [ {
+      "name" : "kind_animal",
+      "entity" : "cat",
+      "required" : true,
+      "prompts" : [ "какое?", "какое именно животное вы хотите?" ]
+    } ]
+  }, {
+    "id" : 40090,
+    "path" : "/число",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "patterns" : [ ]
+  } ],
+  "entities" : [ {
+    "entity" : {
+      "id" : 24036,
+      "name" : "animal",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : false,
+      "noMorph" : false
+    },
+    "records" : [ {
+      "id" : 552675,
+      "type" : "synonyms",
+      "rule" : [ "животное", "живность", "животного", "животину", "зверя", "зверька", "зверечка" ],
+      "value" : "\"animal\""
+    } ]
+  }, {
+    "entity" : {
+      "id" : 24037,
+      "name" : "cat",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : false,
+      "noMorph" : false
+    },
+    "records" : [ {
+      "id" : 534566,
+      "type" : "pattern",
+      "rule" : [ "(кошеч*|кошк*|кис*)" ],
+      "value" : "\"кошка\""
+    }, {
+      "id" : 534567,
+      "type" : "synonyms",
+      "rule" : [ "кот", "котэ", "коты", "кота", "котик", "котика", "котиков", "котище", "котищ", "котов" ],
+      "value" : "\"кот\""
+    }, {
+      "id" : 544153,
+      "type" : "pattern",
+      "rule" : [ "(котен*|котят*)" ],
+      "value" : "\"котенок\""
+    } ]
+  } ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ]
 }
