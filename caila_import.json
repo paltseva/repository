@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "repozitory_victorina-707-Tcl",
-    "name" : "repozitory_victorina-707-Tcl",
+    "id" : "repozitorij666-707-xlm",
+    "name" : "repozitorij666-707-xlm",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -11,7 +11,22 @@
     "timezone" : "UTC",
     "shared" : false
   },
-  "intents" : [ ],
+  "intents" : [ {
+    "id" : 53291,
+    "path" : "/число",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "число"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "с",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "назови число" ]
+    } ]
+  } ],
   "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ]
 }
