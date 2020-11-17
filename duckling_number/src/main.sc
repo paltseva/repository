@@ -13,7 +13,7 @@ theme: /
     state:
         intent!: /пока
         a: Пока пока
-        
+         <!-- comment -->   
     state: number
         intent!: /число
         a: {{toPrettyString($entities)}}
