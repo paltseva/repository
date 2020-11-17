@@ -21,7 +21,7 @@
         <q>к 0</q>
         <a state='/number'></a>
     </test-case>
-    
+ <!-- comment -->   
     <test-case id = "2">
         <q>число</q>
         <a>назови с предлогом "с"</a>
