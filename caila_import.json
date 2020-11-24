@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "repozitory_test_29_1-707-Mvv",
-    "name" : "repozitory_test_29_1-707-Mvv",
+    "id" : "vneshnij_repozitorij-707-quZ",
+    "name" : "vneshnij_repozitorij-707-quZ",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -12,7 +12,7 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 40552,
+    "id" : 61048,
     "path" : "/купить животное",
     "enabled" : true,
     "shared" : false,
@@ -22,10 +22,11 @@
       "name" : "kind_animal",
       "entity" : "cat",
       "required" : true,
-      "prompts" : [ "какое?", "какое именно животное вы хотите?" ]
+      "prompts" : [ "какое?", "какое именно животное вы хотите?" ],
+      "array" : false
     } ]
   }, {
-    "id" : 40090,
+    "id" : 61049,
     "path" : "/число",
     "enabled" : true,
     "shared" : false,
@@ -37,52 +38,61 @@
       "name" : "с",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ "назови с предлогом \"с\"" ]
+      "prompts" : [ "назови с предлогом \"с\"" ],
+      "array" : false
     }, {
       "name" : "на",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ "назови с предлогом \"на\"" ]
+      "prompts" : [ "назови с предлогом \"на\"" ],
+      "array" : false
     }, {
       "name" : "до",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ "назови с предлогом \"до\"" ]
+      "prompts" : [ "назови с предлогом \"до\"" ],
+      "array" : false
     }, {
       "name" : "в",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ "назови с предлогом \"в\"" ]
+      "prompts" : [ "назови с предлогом \"в\"" ],
+      "array" : false
     }, {
       "name" : "по",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ "назови с предлогом \"по\"" ]
+      "prompts" : [ "назови с предлогом \"по\"" ],
+      "array" : false
     }, {
       "name" : "около",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ "назови с предлогом \"около\"" ]
+      "prompts" : [ "назови с предлогом \"около\"" ],
+      "array" : false
     }, {
       "name" : "за",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ "назови с предлогом \"за\"" ]
+      "prompts" : [ "назови с предлогом \"за\"" ],
+      "array" : false
     }, {
       "name" : "от",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ "назови с предлогом \"от\"" ]
+      "prompts" : [ "назови с предлогом \"от\"" ],
+      "array" : false
     }, {
       "name" : "к",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ "назови с предлогом \"к\"" ]
+      "prompts" : [ "назови с предлогом \"к\"" ],
+      "array" : false
     } ]
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 24036,
+      "id" : 43036,
       "name" : "animal",
       "enabled" : true,
       "shared" : false,
@@ -92,14 +102,14 @@
       "noMorph" : false
     },
     "records" : [ {
-      "id" : 552675,
+      "id" : 1105049,
       "type" : "synonyms",
       "rule" : [ "животное", "живность", "животного", "животину", "зверя", "зверька", "зверечка" ],
       "value" : "\"animal\""
     } ]
   }, {
     "entity" : {
-      "id" : 24037,
+      "id" : 43037,
       "name" : "cat",
       "enabled" : true,
       "shared" : false,
@@ -109,17 +119,17 @@
       "noMorph" : false
     },
     "records" : [ {
-      "id" : 534566,
+      "id" : 1105050,
       "type" : "pattern",
       "rule" : [ "(кошеч*|кошк*|кис*)" ],
       "value" : "\"кошка\""
     }, {
-      "id" : 534567,
+      "id" : 1105051,
       "type" : "synonyms",
       "rule" : [ "кот", "котэ", "коты", "кота", "котик", "котика", "котиков", "котище", "котищ", "котов" ],
       "value" : "\"кот\""
     }, {
-      "id" : 544153,
+      "id" : 1105052,
       "type" : "pattern",
       "rule" : [ "(котен*|котят*)" ],
       "value" : "\"котенок\""
