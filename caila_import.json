@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "vneshnij_repozitorij-707-quZ",
-    "name" : "vneshnij_repozitorij-707-quZ",
+    "id" : "repozitorij666-707-xlm",
+    "name" : "repozitorij666-707-xlm",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -12,7 +12,7 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 61048,
+    "id" : 64550,
     "path" : "/купить животное",
     "enabled" : true,
     "shared" : false,
@@ -26,7 +26,7 @@
       "array" : false
     } ]
   }, {
-    "id" : 61049,
+    "id" : 64551,
     "path" : "/число",
     "enabled" : true,
     "shared" : false,
@@ -92,7 +92,7 @@
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 43036,
+      "id" : 47040,
       "name" : "animal",
       "enabled" : true,
       "shared" : false,
@@ -102,14 +102,14 @@
       "noMorph" : false
     },
     "records" : [ {
-      "id" : 1105049,
+      "id" : 1178331,
       "type" : "synonyms",
       "rule" : [ "животное", "живность", "животного", "животину", "зверя", "зверька", "зверечка" ],
       "value" : "\"animal\""
     } ]
   }, {
     "entity" : {
-      "id" : 43037,
+      "id" : 47041,
       "name" : "cat",
       "enabled" : true,
       "shared" : false,
@@ -119,17 +119,17 @@
       "noMorph" : false
     },
     "records" : [ {
-      "id" : 1105050,
+      "id" : 1178332,
       "type" : "pattern",
       "rule" : [ "(кошеч*|кошк*|кис*)" ],
       "value" : "\"кошка\""
     }, {
-      "id" : 1105051,
+      "id" : 1178333,
       "type" : "synonyms",
       "rule" : [ "кот", "котэ", "коты", "кота", "котик", "котика", "котиков", "котище", "котищ", "котов" ],
       "value" : "\"кот\""
     }, {
-      "id" : 1105052,
+      "id" : 1178334,
       "type" : "pattern",
       "rule" : [ "(котен*|котят*)" ],
       "value" : "\"котенок\""
