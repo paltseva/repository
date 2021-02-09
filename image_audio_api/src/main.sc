@@ -3,7 +3,7 @@ require: functions.js
 theme: /
     
     state:
-        q!: start
+        q!: start ччч
         a: Вы сказали и бот ответил {{$parseTree.text}} copy
     
     state: 
