@@ -4,7 +4,7 @@ theme: /
 
     state: 
         q!: $regex</start>
-        a: Начнём.dfdfdfdffdfd
+        a: Начнём.dfdfdfdffdfddfdfd
 
     state:
         intent!: /привет
