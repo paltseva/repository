@@ -12,7 +12,7 @@ theme: /
 
     state: Прощание
         intent!: /пока
-        a: Пока пока
+        a: Пока покаfdfdf
 
     state: Fallback
         event!: noMatch
