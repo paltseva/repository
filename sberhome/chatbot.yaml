@@ -1,0 +1,30 @@
+name: SmartHome
+
+botEngine: v2
+language: ru
+
+nlp:
+  modifyRequestInPreMatch: true
+
+coreThreadCount: 5
+threadCount: 16
+
+sts:
+    noMatchThreshold: 0.2
+caila:
+    noMatchThreshold: 0.2
+
+entryPoint:
+  - main.sc
+
+tests:
+  include:
+    - test.xml
+
+messages:
+  onError:
+    defaultMessage: Что-то пошло не так...
+    locales:
+      ru: Что-то пошло не так...
+      en: Failed on request processing...
+     
