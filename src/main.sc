@@ -26,7 +26,7 @@ theme: /
     #            $context,
     #            $response,
     #            $parseTree._question.type
-    #        );
+    #        );hjhjh
     state: smartHomeBuyDevice
         intent!: /Onboarding/BuyDevice
         script:
