@@ -1,0 +1,9 @@
+{
+  "positions" : [ {
+    "id" : "/1",
+    "name" : "1",
+    "actionTitles" : [ null, null ],
+    "x" : 200,
+    "y" : 200
+  } ]
+}

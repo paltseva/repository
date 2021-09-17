@@ -1,2 +1,21 @@
 <test>
-</test>    
+  <!--test-case id="Default test">
+      <q>/start</q>
+      <a>Навык пока недоступен</a>
+  </test-case-->
+  
+  <!--test-case id="Default test 2">
+      <q>/start</q>
+      <a state="/omgThisIsStartCommand:"/>
+  </test-case-->
+  
+  <!--test-case id="By phrase test">
+      <q>Запусти умный дом</q>
+      <a>Навык пока недоступен</a>
+  </test-case-->
+  
+  <!--test-case id="Test_TurnLightOn">
+      <request>{"query": "включи свет","channelType": "test"}</request>
+      <a state="/Home/Turn_On" />
+  </test-case-->
+</test>
