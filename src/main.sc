@@ -8,7 +8,7 @@ require: main.js
 init:
     script:
         initPreProcess();
-# from main
+# from main 2
 theme: /
     state: smartHomeOnboarding
         intent!: /Onboarding
