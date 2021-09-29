@@ -11,7 +11,7 @@ init:
 
 theme: /
     state: smartHomeOnboarding
-        intent!: /Onboarding
+        intent!: /Onboardingв
         script:
             action_handler(
                 toOnboardingString($parseTree._question.type),
